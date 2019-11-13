@@ -1,0 +1,6 @@
+baseURL=http://demo.guru99.com/V4/
+username=mngr232770
+password=tUbAbUz
+chropath=.\drivers\\chromedriver.exe
+firepath=.\drivers\\geckodriver.exe
+iepath=.\drivers\\MicrosoftWebDriver.exe

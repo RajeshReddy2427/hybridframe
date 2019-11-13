@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;log4j.properties&apos; to &apos;inetframe&apos;&#x0D;&#x0A;- Original project: &apos;inetBankingV3_MorningBatch&apos;&#x0D;&#x0A;- Destination element: &apos;inetframe&apos;&#x0D;&#x0A;- Original element: &apos;log4j.properties&apos;" description="Copy file" destination="=inetframe" element1="log4j.properties" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1573623304689" units="0" version="1.0"/>
+</session>

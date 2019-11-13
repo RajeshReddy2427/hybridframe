@@ -1,0 +1,30 @@
+package framework.baseclass;
+
+import java.io.FileInputStream;
+import java.util.Properties;
+
+public class Base_class {
+
+	
+	
+	Properties prop=new Properties();
+	
+	FileInputStream fis=new FileInputStream("C:\\Users\\Rajesh Reddy\\eclipse-hybridframework\\framework\\configurations\\data.properties");
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

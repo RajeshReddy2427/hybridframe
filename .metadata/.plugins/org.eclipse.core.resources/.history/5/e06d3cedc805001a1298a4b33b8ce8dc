@@ -1,0 +1,6 @@
+chropath=.\drivers\\chromedriver.exe
+firepath =.\drivers\\geckodriver.exe
+iepath=.\drivers\\MicrosoftWebDriver.exe
+baseurl=http://demo.guru99.com/V1/index.php
+username=mngr232770
+password=tUbAbUz

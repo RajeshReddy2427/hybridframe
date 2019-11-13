@@ -1,0 +1,59 @@
+package com.inetframe.testcases;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.BeforeClass;
+
+import com.inetframe.utilities.Read_config;
+
+
+
+public class Base_class {
+	Read_config read=new Read_config();
+
+	public String baseurl="http://demo.guru99.com/V4/";
+	
+	public String username="mngr232770";
+	
+	public String password="tUbAbUz";
+	
+	public static WebDriver driver;
+	
+	@BeforeClass
+	
+	public void setup(String br)
+	{
+		
+		if(br.equals("chrome"))
+		{
+			System.setProperty("webdriver.chrome.driver", "C:\\Users\\Rajesh Reddy\\eclipse-hybridframework\\inetframe\\drivers\\chromedriver.exe");
+			 driver=new ChromeDriver();
+		}
+		else if(br.equals("firefox"))
+		{
+			
+			System.setProperty("webdriver.gecko.driver", "C:\\Users\\Rajesh Reddy\\eclipse-hybridframework\\inetframe\\drivers\\geckodriver.exe");
+			driver=new FirefoxDriver();
+		}
+		
+		else if(br.equals("ie"))
+		{
+			System.setProperty("webdriver.ie.driver", "C:\\Users\\Rajesh Reddy\\eclipse-hybridframework\\inetframe\\drivers\\MicrosoftWebDriver.exe");
+			
+			driver=new InternetExplorerDriver();
+		}
+		
+	}
+	
+	
+	@AfterClass
+	
+	public void teardown()
+	{
+		driver.close();
+	}
+	
+}

@@ -1,0 +1,4 @@
+browser=chrome
+chropath=.\drivers\\chromedriver.exe
+firepath =.\drivers\\geckodriver.exe
+iepath=.\drivers\\MicrosoftWebDriver.exe

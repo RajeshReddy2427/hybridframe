@@ -1,0 +1,5 @@
+package com.inetframe.pageobjects;
+
+public class LoginPage {
+
+}
